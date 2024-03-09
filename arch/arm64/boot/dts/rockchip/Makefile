@@ -128,6 +128,7 @@ dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3566-evb2-lp4x-v10-pdm-mic-array.dtb
 dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3566-evb3-ddr3-v10.dtb
 dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3566-evb3-ddr3-v10-linux.dtb
 dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3566-evb5-lp4x-v10.dtb
+dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3566-panther-x2.dtb
 dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3566-orangepi-3b.dtb
 dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3566-radxa-zero3.dtb
 dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3566-radxa-zero3-ap6212.dtb
@@ -298,6 +299,5 @@ dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3588s-roc-pc.dtb
 dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3588s-tablet-rk806-single-v10.dtb
 dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3588s-tablet-v10.dtb
 dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3588s-tablet-v11.dtb
-dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3566-panther-x2.dtb
 
 subdir-y := $(dts-dirs) overlay
