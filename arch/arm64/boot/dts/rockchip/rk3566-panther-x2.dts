@@ -134,7 +134,7 @@
         regulator-boot-on;
         regulator-min-microvolt = <3300000>;
         regulator-max-microvolt = <3300000>;
-        vin-supply = <&vcc5v0_sys>;
+        vin-supply = <&dc_12v>;
     };
 
      vcc3v3_pcie: mini-pcie-3v3-regulator {
@@ -595,7 +595,7 @@
     reset-gpios = <&gpio3 RK_PC1 GPIO_ACTIVE_HIGH>;
     disable-gpios = <&gpio3 RK_PC2 GPIO_ACTIVE_HIGH>;
     vpcie3v3-supply = <&vcc3v3_pcie>;
-    status = "okay";
+    status = "disabled";
 };
 
 &usb_host0_ohci {
@@ -684,7 +684,7 @@
 			compatible = "shared-dma-pool";
 			inactive;
 			reusable;
-			size = <0x0 0x20000000>;
+			size = <0x0 0x10000000>;
 			alignment = <0x0 0x1000>;
 	};
 
